@@ -1,4 +1,3 @@
-Task 1
 import random
 
 def hangman():
@@ -38,5 +37,6 @@ def hangman():
 
     if attempts == 0:
         print(f"Game Over! The word was: {word}")
+
 
 hangman()
